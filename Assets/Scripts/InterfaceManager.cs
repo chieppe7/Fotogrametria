@@ -42,6 +42,11 @@ public class InterfaceManager : MonoBehaviour
         animatedText.onDialogueFinish.AddListener(() => FinishDialogue());
     }
 
+    public void ChangeVillager(VillagerScript vs) {
+        currentVillager=vs;
+        dialogueCam=currentVillager.dialogueCam;
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && inDialogue)
