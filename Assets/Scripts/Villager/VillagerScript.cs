@@ -9,6 +9,7 @@ public class VillagerScript : MonoBehaviour
 {
     public VillagerData data;
     public DialogueData dialogue;
+    public GameObject dialogueCam;
 
     public bool villagerIsTalking;
 

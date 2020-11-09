@@ -43,7 +43,7 @@ public class DialogueTrigger : MonoBehaviour
         if (other.CompareTag("Villager"))
         {
             currentVillager = other.GetComponent<VillagerScript>();
-            ui.currentVillager = currentVillager;
+            ui.ChangeVillager(currentVillager);
         }
     }
 
