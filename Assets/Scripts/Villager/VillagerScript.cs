@@ -47,6 +47,9 @@ public class VillagerScript : MonoBehaviour
 
         if(e== Emotion.happy)
             eyesRenderer.material.SetTextureOffset("_BaseMap", new Vector2(.33f, 0));
+
+        if(e== Emotion.celebrate)
+            eyesRenderer.material.SetTextureOffset("_BaseMap", new Vector2(.33f, 0));
     }
 
     public void SetAction(string action)

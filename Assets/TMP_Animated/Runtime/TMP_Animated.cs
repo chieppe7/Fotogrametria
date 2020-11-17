@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 namespace TMPro
 {
-    public enum Emotion { happy, sad, suprised, angry };
+    public enum Emotion { happy, sad, suprised, angry, celebrate };
     [System.Serializable] public class EmotionEvent : UnityEvent<Emotion> { }
 
     [System.Serializable] public class ActionEvent : UnityEvent<string> { }
